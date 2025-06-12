@@ -1,1 +1,5 @@
 @import "tailwindcss";
+
+.container {
+  @apply px-[45px] sm:px-[10px] md:px-[40px] lg:px-[100px] xl:px-[200px] mx-auto;
+}
