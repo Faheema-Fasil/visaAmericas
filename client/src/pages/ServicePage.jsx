@@ -3,6 +3,7 @@ import AssistanceSection from '../components/Services/AssistanceSection'
 import ServicesSection from '../components/Services/ServicesSection'
 import { visaServices } from '../components/Services/ServicesData'
 import ServicesComponent from '../components/Services/B1Visitor'
+import QuickLinkPage from './QuickLinkPage'
 
 
 function ServicePage() {
@@ -33,6 +34,7 @@ function ServicePage() {
 
     
     </div>
+    <QuickLinkPage/>
     </>
   )
 }
