@@ -3,18 +3,19 @@
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
 import HomePage from './pages/HomePage'
+import ServicePage from './pages/ServicePage'
 
 function App() {
 
 
   return (
     <>
-    <Routes>
+      <Routes>
 
-    <Route path="/" element={<HomePage />} />
-    <Route path="/services" element={<ServicePage />} />
-    
-    </Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/services" element={<ServicePage />} />
+
+      </Routes>
     </>
   )
 }
