@@ -34,7 +34,7 @@ function ServicePage() {
 
     
     </div>
-    <QuickLinkPage/>
+    
     </>
   )
 }

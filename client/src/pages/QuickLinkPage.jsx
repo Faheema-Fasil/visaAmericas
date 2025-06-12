@@ -29,15 +29,15 @@ const quickLinks = [
 
 function QuickLinkPage() {
   return (
-    <div className="relative bg-cover bg-center bg-no-repeat py-15 px-4" style={{
+    <div className="relative bg-cover bg-center bg-no-repeat py-13 px-4" style={{
       backgroundImage: `url('https://visaamericas.com/wp-content/uploads/2023/07/Visa-Americas-About.jpeg')`
     }}>
 
-      <div className="absolute inset-0 bg-white opacity-80 transition-all duration-300"></div>
+      <div className="absolute inset-0 bg-[#fcf9e5] opacity-80 transition-all duration-300"></div>
 
 
       <div className="relative z-10 px-[35px] sm:px-[30px] md:px-[50px] xl:px-[150px] mx-auto">
-        <h4 className="text-center text-[36px] sm:text-[42px] font-[Vidaloka] text-[#005e68] mb-16">
+        <h4 className="text-center text-[36px] sm:text-[42px] font-[Vidaloka] text-[#005e68] mb-7">
           Important page links
         </h4>
 
@@ -45,9 +45,9 @@ function QuickLinkPage() {
           {quickLinks.map((link, idx) => (
             <div
               key={idx}
-              className="bg-[#006a6e] text-white py-[55px] px-[45px] flex flex-col gap-10 justify-between border border-transparent hover:border-green-500 transition-all duration-300"
+              className="bg-[#006a6e] text-white py-[65px] px-[45px] flex flex-col gap-7 justify-between border border-transparent hover:border-green-500 transition-all duration-300"
             >
-              <p className="text-center font-[Times] text-[18px] leading-relaxed mb-6">
+              <p className="text-center font-[Times] text-[20px] leading-relaxed mb-6">
                 {link.title}
               </p>
               <a
