@@ -3,3 +3,27 @@
 .container {
   @apply px-[35px] sm:px-[30px] md:px-[50px] lg:px-[120px] xl:px-[150px] mx-auto;
 }
+/* hero carousal */
+.hero-swiper .swiper-pagination-bullet {
+  width: 6px;
+  height: 6px;
+  background-color: #ffffff;
+  opacity: 1;
+  margin: 0 6px;
+  border-radius: 9999px;
+  transition: all 0.3s ease;
+}
+
+.hero-swiper .swiper-pagination-bullet-active {
+  background-color: #EAC33F;
+}
+.slide-content {
+  opacity: 0;
+  animation: fadeIn 0.8s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
