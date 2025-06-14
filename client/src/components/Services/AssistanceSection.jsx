@@ -14,15 +14,7 @@ const AssistanceSection = () => {
             </h2>
           </div>
 
-          {/* Right Column */}
-          {/* <div className="text-[#046E79]  md:w-2/4 lg:w-8/12 text-[17px] lg:text-[18px] lg:leading-tight grid grid-cols-1 lg:grid-cols-2 lg:gap-8 ">
-            <p>
-              Welcome to Visa Americas, your trusted partner for all your US visa and immigration needs. We specialize in a wide range of visa services and immigration solutions, catering to individuals, families, and businesses seeking entry into the United States.
-            </p>
-            <p>
-              With our extensive knowledge and experience in navigating the complex world of immigration, we are here to make your journey smoother and more efficient.
-            </p>
-          </div> */}
+         
           <div className="text-[#046E79] text-[17px] lg:text-[18px] lg:leading- md:w-2/4 lg:w-8/12">
   <p className="block lg:grid lg:grid-cols-2 lg:gap-8">
     <span>

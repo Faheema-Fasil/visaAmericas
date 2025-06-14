@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 .container {
-  @apply px-[35px] sm:px-[30px] md:px-[50px] lg:px-[120px] xl:px-[150px] mx-auto;
+  @apply px-[35px] sm:px-[30px] md:px-[50px] lg:px-[100px] xl:px-[150px] mx-auto;
 }
 /* hero carousal */
 .hero-swiper .swiper-pagination-bullet {

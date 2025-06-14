@@ -45,8 +45,8 @@ const ServicesSection = () => {
                 <li key={idx} className="flex  items-start  gap-2">
                     <div className='flex flex-row  items-center gap-3'>
 
-                  <FaCircleDot className=" text-[#135c65]" maxSize={13} />
-                  <HashLink smooth to={path} className=" text-[18px] text-black hover:text-[#25666a] transition-colors">
+                  <FaCircleDot className=" text-[#135c65]" size={15} />
+                  <HashLink smooth to={path} className=" text-[18px] text-black  hover:text-[#25666a] transition-colors">
                     {title}
                   </HashLink>
                     </div>
